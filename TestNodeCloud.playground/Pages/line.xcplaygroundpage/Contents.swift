@@ -7,14 +7,14 @@ import XCPlayground
 let squareSize = 500
 
 let numberOfDots = 9
-let numberOfSources = 2
+let numberOfSources = 3
 
 
 
 let animationTime = 1.0
 
 var window = UIView(frame: CGRect(x: 0, y: 0, width: squareSize, height: squareSize))
-window.backgroundColor = UIColor(colorLiteralRed:0.6, green: 0.65, blue: 0.69, alpha: 1.0)
+window.backgroundColor = UIColor(red:0.27, green:0.73, blue:0.98, alpha:1)
 
 
 XCPShowView("mindNode", view: window)
@@ -88,7 +88,7 @@ title.textAlignment = NSTextAlignment.Center
 title.font = UIFont(name: "Avenir-Heavy", size: 24)
 title.textColor = UIColor.whiteColor()
 title.center = window.center
-title.alpha = 0.3
+title.alpha = 0.8
 window.addSubview(title)
 
 

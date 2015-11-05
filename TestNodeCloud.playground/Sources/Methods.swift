@@ -115,8 +115,8 @@ public func move(starts : NSMutableArray, numberOfSources :NSInteger, numberOfDo
         
     }else{
         for var i=0; i < numberOfDots; i++ {
-            let xValue = Int(arc4random_uniform(350))+50
-            let yValue = Int(arc4random_uniform(350))+50
+            let xValue = Int(arc4random_uniform(450))+50
+            let yValue = Int(arc4random_uniform(450))+50
             
             let newPoint = CGPoint(x: xValue, y: yValue )
             pointsGroup.addObject(NSValue(CGPoint: newPoint))
