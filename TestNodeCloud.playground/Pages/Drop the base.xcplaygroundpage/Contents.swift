@@ -9,8 +9,8 @@ var str = "Hello, playground"
 
 let containerView = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 667.0, height: 667.0))
 
-
-XCPShowView("container", view: containerView)
+XCPlaygroundPage.currentPage.liveView = containerView
+//XCPShowView("container", view: containerView)
 
 containerView.backgroundColor = UIColor.whiteColor()
 
@@ -57,12 +57,6 @@ func animateButtons(){
 
 
 animateButtons()
-
-
-
-
-
-
 
 containerView.addSubview(rectangle1)
 containerView.addSubview(rectangle2)

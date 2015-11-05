@@ -12,6 +12,7 @@ var str = "Hello, playground"
 let w = UIView(frame: CGRect(x: 0, y: 0, width: 320, height: 568))
 
 
+
 let line = UIView(frame: CGRect(x: 20, y: 100, width: 1, height: 100))
 
 line.backgroundColor = UIColor.whiteColor()

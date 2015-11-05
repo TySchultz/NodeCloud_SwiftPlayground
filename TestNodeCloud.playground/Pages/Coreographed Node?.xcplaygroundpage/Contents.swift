@@ -50,6 +50,7 @@ for var i=0; i<numberOfSources; i++ {
     }
 }
 
+
 var newPointsGroup :NSMutableArray = []
 var newViewGroup :NSMutableArray = []
 let viewColor = UIColor.whiteColor().colorWithAlphaComponent(1.0)

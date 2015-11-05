@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
-        <page name='Untitled Page'/>
-        <page name='Untitled Page 2'/>
-        <page name='line'/>
+        <page name='NodeCloud'/>
+        <page name='Spin and twist'/>
+        <page name='Drop the base'/>
+        <page name='Coreographed Node?'/>
     </pages>
 </playground>
